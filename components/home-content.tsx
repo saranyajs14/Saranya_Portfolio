@@ -138,7 +138,7 @@ export default function HomeContent() {
             </div>
 
             <Link
-  href="/Resume_Saranya_SDE_AI.pdf"
+  href="/Resume_Saranya_SDE_AI_1.pdf"
   className="inline-flex items-center gap-2 gradient-bg text-white px-8 py-4 rounded-xl font-medium hover:opacity-90 transition-all shadow-lg hover:shadow-2xl relative overflow-hidden group animate-fade-in-up animation-delay-1000 hover:scale-105"
   download>
   <span className="relative z-10">Download Resume</span>
