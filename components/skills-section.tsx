@@ -6,7 +6,7 @@ export default function SkillsSection() {
     frameworksTools: ["Spring", "Spring Boot", "JUnit", "REST API", "JUnit", "JMeter", "Maven"],
     database: ["DBMS", "Mysql", "MongoDB", "Redis"],
     Cloud & DevOps: ["AWS", "Terraform", "Docker", "Kubernetes", "Jenkins", "Ansible", "GitHub Actions", "SonarQube", "CI/CD"],
-    Monitoring: ["Grafana", "Splunk", 'New Relic", "Sumo Logic"],
+    Monitoring: ["Grafana", "Splunk", "New Relic", "Sumo Logic"],
     Architecture & Design: ["Microservices", "Event-Driven Architecture (Kafka)", "Distributed Systems", "Object Oriented Programming"],             
     projectManagement: ["Agile", "Jira", "Kanban", "Confluence"],
   }
