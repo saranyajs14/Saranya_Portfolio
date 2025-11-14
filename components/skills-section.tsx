@@ -8,7 +8,8 @@ export default function SkillsSection() {
     CloudDevOps: ["AWS", "Terraform", "Docker", "Kubernetes", "Jenkins", "Ansible", "GitHub Actions", "SonarQube"],
     monitoring: ["Grafana", "Splunk", "New Relic", "Sumo Logic"],
     architecture: ["Microservices", "Event-Driven Architecture (Kafka)", "Distributed Systems", "Object Oriented Programming"],
-    projectManagement: ["Agile", "Jira", "Kanban", "Confluence"]
+    projectManagement: ["Agile", "Jira", "Kanban", "Confluence"],
+    AIML: ["LLaMA", "LangGraph", "RAG pipelines", "FAISS", "Hugging Face"]
   };
 
   const categoryIcons = {
@@ -18,7 +19,8 @@ export default function SkillsSection() {
     CloudDevOps: "☁️",
     monitoring: "📈",
     architecture: "🏛️",
-    projectManagement: "📊"
+    projectManagement: "📊",
+    AIML: "🤖"
   };
 
   const categoryLabels = {
@@ -28,12 +30,12 @@ export default function SkillsSection() {
     CloudDevOps: "Cloud & DevOps",
     monitoring: "Monitoring",
     architecture: "Architecture",
-    projectManagement: "Project Management"
+    projectManagement: "Project Management",
+    AIML: "AI/ML"
   };
 
   const titleRef = useScrollAnimation();
 
-  // Generate staggered refs to match categories count
   const categoryKeys = Object.keys(skills);
   const categoryRefs = categoryKeys.map((_, i) => useStaggeredAnimation(i * 200));
 
