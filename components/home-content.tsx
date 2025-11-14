@@ -6,7 +6,7 @@ import Link from "next/link"
 import { Download, ChevronDown } from "lucide-react"
 
 export default function HomeContent() {
-  const [profession, setProfession] = useState("Backend Engineer")
+  const [profession, setProfession] = useState("Backend Developer | AI Engineer")
   const [isDeleting, setIsDeleting] = useState(false)
   const [loopNum, setLoopNum] = useState(0)
   const [typingSpeed, setTypingSpeed] = useState(150)
