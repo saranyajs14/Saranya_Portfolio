@@ -13,7 +13,7 @@ export default function HomeContent() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   const [mounted, setMounted] = useState(false)
 
-  const professions = ["Backend Engineer", "Social Worker"]
+  const professions = ["Backend Developer", "AI Engineer, "Social Worker"]
 
   useEffect(() => {
     setMounted(true)
