@@ -4,7 +4,7 @@ export default function SkillsSection() {
   const skills = {
     programmingLanguages: ["Java", "C++", "Python", "C#", "SQL", "NodeJs"],
     frameworksTools: ["Spring", "Spring Boot", "JUnit", "REST API", "Kafka", "Grafana", "Splunk", "SumoLogic", "Figma"],
-    database: ["DBMS", "Mysql", "MongoDB"],
+    database: ["DBMS", "Mysql", "MongoDB", "Redis"],
     projectManagement: ["Agile", "Jira", "Kanban", "Confluence"],
   }
 
