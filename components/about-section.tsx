@@ -62,9 +62,9 @@ export default function AboutSection() {
           <div className="space-y-4">
             {[
               "Backend Development – Designing robust architectures with Spring Boot, MongoDB, and REST APIs",
-              "iOS Development – Crafting seamless user experiences using Swift & UIKit",
+              "Integrating LLMs and orchestrating AI agents using MCP",
               "System Optimization – Boosted MongoDB performance by 45x at ViacomCBS",
-              "Project Management – Leading Agile teams with Scrum, Jira, and Confluence",
+  
             ].map((skill, index) => {
               return (
                 <div
