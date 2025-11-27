@@ -64,7 +64,7 @@ const projects = [
     title: "AI Knowledge Orchestrator ",
     description:
       "Built an intelligent knowledge orchestration system that seamlessly integrates Spring Boot microservices with Python-based multi-agent AI architecture using LangChain and Model Context Protocol (MCP). The platform features specialized AI agents for research, code generation, and decision-making, processing complex queries through a RAG pipeline powered by MongoDB Atlas Vector Search.",
-    image: "/meningioma-ai-assistant.png",
+    image: "/AI_KNOW.png",
     link: "#",
     techStack: "Spring Boot, MongoDB, LangChain, OpenAI/Ollama APIs, Python (FastAPI), Docker, Redis, JWT, MongoDB Atlas Vector Search, GitHub Actions CI/CD",
   }
