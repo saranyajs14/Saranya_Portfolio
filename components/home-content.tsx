@@ -130,10 +130,10 @@ export default function HomeContent() {
             <div className="mb-8 animate-fade-in-up animation-delay-800">
               <p className="text-lg mb-4 text-slate-300 leading-relaxed">
                 <span className="inline-block mr-2 animate-bounce-gentle text-2xl">⚡</span>
-                Passionate about building scalable, high-performance applications, I bring over six years of experience
-                in Java, with expertise in Spring Boot, Node.js, MongoDB. Currently pursuing my Master&apos;s in
-                Software Engineering Systems at Northeastern University, I thrive on solving complex problems and
-                optimizing system efficiency.
+                Experienced backend software developer with six years of expertise in Java, Spring Boot, Node.js, and MongoDB. 
+                Recently discovered my passion for AI engineering, diving deep into LLMs, RAG architectures, and multi-agent systems. 
+                Currently pursuing my Master's at Northeastern University while actively building AI-powered solutions that combine
+                robust backend engineering with cutting-edge machine learning.
               </p>
             </div>
 
