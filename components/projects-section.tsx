@@ -67,7 +67,16 @@ const projects = [
     image: "/AI_KNOW.png",
     link: "#",
     techStack: "Spring Boot, MongoDB, LangChain, OpenAI/Ollama APIs, Python (FastAPI), Docker, Redis, JWT, MongoDB Atlas Vector Search, GitHub Actions CI/CD",
-  }
+  },
+  {
+  id: 8,
+  title: "YouTube Data ETL Pipeline with Multi-Region Analysis",
+  description:
+  "Automated daily collection of ~250 YouTube videos across US, IN, GB, and PK using YouTube Data API v3. Performs category and keyword-based classification to organize video metadata by region. Built with a cloud-native architecture leveraging Azure Functions for serverless automation, Azure Blob Storage for raw data storage, Snowflake Data Warehouse for scalable SQL analytics, and Azure Key Vault for secure credential management.",
+  image: "/youtube_ETL.png",
+  link: "#",
+  techStack: "Python 3.8+, Azure Functions, Azure Blob Storage, Azure Key Vault, Snowflake, Azure CLI, snowflake-connector-python, YouTube Data API v3",
+},
 ]
 
 export default function ProjectsSection() {
